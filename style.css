@@ -35,3 +35,26 @@ body {
   border-top: none;
   border-bottom: none;
 }
+
+.watch {
+  height: 11.25em;
+  width: 11.25em;
+  background-color: #f5f5f5;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.12em #3b4547, 0 0 0 0.93em #ccc8c9, 0 0 0 1.06em #3b4547;
+}
+
+.pin {
+  position: absolute;
+  height: 1.25em;
+  width: 1.25em;
+  background: linear-gradient(#aab1bc 0.31em, #ccc8c9 0.31em);
+  border: 0.12em solid #3b4547;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: calc(50% + 6.56em);
+}
