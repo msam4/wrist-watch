@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #cae8c9;
+  background-color: #4b4e73;
 }
 
 .strap {
@@ -15,7 +15,7 @@ body {
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  background: radial-gradient(#3b4547 2px, #7ab982 2px);
+  background: radial-gradient(#4b4e73 2px, #b81731 2px);
   background-size: 1.12em 1.12em;
   background-position: -0.31em;
   border-top: none;
@@ -27,7 +27,7 @@ body {
   content: "";
   height: 100vh;
   width: 1.87em;
-  background-color: #456ba8;
+  background-color: #E6E7EE;
   border: 0.12em solid #3b4547;
   position: absolute;
   transform: translateX(-50%);
@@ -45,14 +45,14 @@ body {
   left: 50%;
   top: 50%;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.12em #3b4547, 0 0 0 0.93em #ccc8c9, 0 0 0 1.06em #3b4547;
+  box-shadow: 0 0 0 0.12em #3b4547, 0 0 0 0.93em #E5AE87, 0 0 0 1.06em #3b4547;
 }
 
 .pin {
   position: absolute;
   height: 1.25em;
   width: 1.25em;
-  background: linear-gradient(#aab1bc 0.31em, #ccc8c9 0.31em);
+  background: linear-gradient(#cd9b78 0.31em, #E5AE87 0.31em);
   border: 0.12em solid #3b4547;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -68,7 +68,7 @@ img {
   margin: auto;
   left: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #E5AE87;
   border-radius: 0.31em;
   transform-origin: bottom;
 }
@@ -89,5 +89,6 @@ img {
   height: 4.37em;
   width: 0.18em;
   top: 1.25em;
-  background-color: #456ba8;
+  background-color: #4b4e73;
+  z-index: -3;
 }
